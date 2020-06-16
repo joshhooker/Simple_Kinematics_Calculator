@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Simple_Kinematics_Calculator/precache-manifest.3ddc56a6590491f87a150575940e7dea.js"
+  "/Simple_Kinematics_Calculator/precache-manifest.92afbeef7b9923b909b7ebbc9ef5c5bb.js"
 );
 
 self.addEventListener('message', (event) => {

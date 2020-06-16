@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Simple_Kinematics_Calculator/static/css/main.c3a469a2.chunk.css",
-    "main.js": "/Simple_Kinematics_Calculator/static/js/main.696f85a5.chunk.js",
-    "main.js.map": "/Simple_Kinematics_Calculator/static/js/main.696f85a5.chunk.js.map",
+    "main.css": "/Simple_Kinematics_Calculator/static/css/main.4e27fed4.chunk.css",
+    "main.js": "/Simple_Kinematics_Calculator/static/js/main.cc9bf684.chunk.js",
+    "main.js.map": "/Simple_Kinematics_Calculator/static/js/main.cc9bf684.chunk.js.map",
     "runtime-main.js": "/Simple_Kinematics_Calculator/static/js/runtime-main.5a925543.js",
     "runtime-main.js.map": "/Simple_Kinematics_Calculator/static/js/runtime-main.5a925543.js.map",
-    "static/js/2.2352ff03.chunk.js": "/Simple_Kinematics_Calculator/static/js/2.2352ff03.chunk.js",
-    "static/js/2.2352ff03.chunk.js.map": "/Simple_Kinematics_Calculator/static/js/2.2352ff03.chunk.js.map",
+    "static/js/2.1df5454f.chunk.js": "/Simple_Kinematics_Calculator/static/js/2.1df5454f.chunk.js",
+    "static/js/2.1df5454f.chunk.js.map": "/Simple_Kinematics_Calculator/static/js/2.1df5454f.chunk.js.map",
     "index.html": "/Simple_Kinematics_Calculator/index.html",
-    "precache-manifest.3ddc56a6590491f87a150575940e7dea.js": "/Simple_Kinematics_Calculator/precache-manifest.3ddc56a6590491f87a150575940e7dea.js",
+    "precache-manifest.92afbeef7b9923b909b7ebbc9ef5c5bb.js": "/Simple_Kinematics_Calculator/precache-manifest.92afbeef7b9923b909b7ebbc9ef5c5bb.js",
     "service-worker.js": "/Simple_Kinematics_Calculator/service-worker.js",
-    "static/css/main.c3a469a2.chunk.css.map": "/Simple_Kinematics_Calculator/static/css/main.c3a469a2.chunk.css.map",
-    "static/js/2.2352ff03.chunk.js.LICENSE.txt": "/Simple_Kinematics_Calculator/static/js/2.2352ff03.chunk.js.LICENSE.txt"
+    "static/css/main.4e27fed4.chunk.css.map": "/Simple_Kinematics_Calculator/static/css/main.4e27fed4.chunk.css.map",
+    "static/js/2.1df5454f.chunk.js.LICENSE.txt": "/Simple_Kinematics_Calculator/static/js/2.1df5454f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5a925543.js",
-    "static/js/2.2352ff03.chunk.js",
-    "static/css/main.c3a469a2.chunk.css",
-    "static/js/main.696f85a5.chunk.js"
+    "static/js/2.1df5454f.chunk.js",
+    "static/css/main.4e27fed4.chunk.css",
+    "static/js/main.cc9bf684.chunk.js"
   ]
 }
