@@ -1,8 +1,3 @@
-import Big from "big.js";
-
-// ------------------------------------Convertion Function------------------------------------
-// Convert variable type
-
 export function resultFormatter(result) {
     Object.keys(result).forEach(function (field) {
         Object.keys(result[field]).forEach(function (entry) {
@@ -27,15 +22,7 @@ function valueFormatter(val, field, entry) {
 }
 
 function kinematicsFormatter(val, entry) {
-    switch (entry) {
-        case "max_angle":
-            val = new Big(val);
-            val = formatConvertion(val.times(Math.pow(10, 3)), 3, 3);
-            break;
-        default:
-            val = formatConvertion(val, 4, 3);
-            break;
-    }
+    val = formatConvertion(val, 4, 3);
     return val;
 }
 

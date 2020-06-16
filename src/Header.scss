@@ -18,4 +18,20 @@
 
         }
     }
+
+    .subheader-container {
+        max-width: 1024px;
+        padding: 0 10px;
+        margin-left: auto;
+        margin-right: auto;
+
+        .subheader-title {
+            font-size: 20px;
+            color: black;
+            float: center;
+            padding-top: 20px;
+            margin-bottom: 0;
+
+        }
+    }
 }

@@ -3,7 +3,6 @@ import React from "react";
 
 import DataTable from 'react-data-table-component';
 
-// Import
 import { computeResult } from "./Compute";
 import Data from "./Data";
 import Form from "./Form";

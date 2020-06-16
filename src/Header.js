@@ -1,9 +1,10 @@
 import React from "react";
+import {
+  BrowserRouter as Router,
+  Link
+} from "react-router-dom";
 
-// import css
 import "./Header.scss";
-
-// import images
 
 
 class Header extends React.Component {
@@ -13,6 +14,13 @@ class Header extends React.Component {
                 <div className="header-container">
                     <h1 className="header-title">
                         Scattering Kinematics Calculator
+                    </h1>
+                </div>
+                <div className="subheader-container">
+                    <h1 className="subheader-title">
+                        <Router>
+                        <Link to="http://joshhooker.github.io/Nuclear_Kinematics_Calculator">A more updated version can be found here</Link>
+                        </Router>
                     </h1>
                 </div>
             </div>

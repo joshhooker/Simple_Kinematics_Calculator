@@ -1,9 +1,9 @@
+import Data from "./Data";
+
 import { getIsotope, getHeavyRecoil } from "./ComputeAtoms";
 import { getKinematics } from "./ComputeKinematics";
 import { resultFormatter } from "./ResultFormatter"
-import Data from "./Data";
 
-// Import global variables from Data
 const DefaultAtom = Data.DefaultAtom;
 const DefaultKinematics = Data.DefaultKinematics;
 
@@ -41,7 +41,7 @@ export function computeResult(input) {
     const heavy = getHeavyRecoil(beam, target, light, +heavy_ex);
     result["heavy"] = heavy ? heavy : DefaultAtom;
 
-    // Check if light is the light recoil and heavy is the heavy
+    // Check if light is the light recoil and heavy is the heavy recoil, otherwise swap
     if (light.mass_number > heavy.mass_number) {
         [result["light"], result["heavy"]] = [result["heavy"], result["light"]]
     }
@@ -50,6 +50,7 @@ export function computeResult(input) {
     const kinematics = getKinematics(beam, target, light, heavy, beam_energy);
     result["kinematics"] = kinematics ? kinematics : DefaultKinematics;
 
+    // Format results
     result = resultFormatter(result);
 
     return result;

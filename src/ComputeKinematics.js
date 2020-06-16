@@ -1,8 +1,5 @@
 import Big from "big.js";
 
-// ------------------------------------Universal Formatting------------------------------------
-// Return desired output with required string format
-
 export function getKinematics(beam, target, light, heavy, beam_energy) {
     if (!(beam && target && light && heavy)) { return false; }
 
@@ -32,9 +29,6 @@ export function getKinematics(beam, target, light, heavy, beam_energy) {
         "kinematic_table": kinematicFactors.kinematic_table,
     }
 }
-
-// ------------------------------------Computation Function------------------------------------
-// Return numerical result
 
 export function computeCMEnergy(beam, target, beam_energy) {
     const beam_mass_big = new Big(beam.mass);

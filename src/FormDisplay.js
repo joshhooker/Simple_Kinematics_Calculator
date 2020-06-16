@@ -1,6 +1,5 @@
 import React from "react";
 
-// import css
 import "./FormDisplay.scss";
 
 const FormDisplay = (props) => {

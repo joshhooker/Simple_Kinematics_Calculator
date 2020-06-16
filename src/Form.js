@@ -1,7 +1,6 @@
 import React from "react";
 import MathJax from "react-mathjax2";
 
-// import css
 import "./Form.scss";
 
 const Form = (props) => {
