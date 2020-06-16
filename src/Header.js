@@ -1,8 +1,4 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Link
-} from "react-router-dom";
 
 import "./Header.scss";
 
@@ -18,9 +14,7 @@ class Header extends React.Component {
                 </div>
                 <div className="subheader-container">
                     <h1 className="subheader-title">
-                        <Router>
-                        <Link to="http://joshhooker.github.io/Nuclear_Kinematics_Calculator">A more updated version can be found here</Link>
-                        </Router>
+                        <a href='http://joshhooker.github.io/Nuclear_Kinematics_Calculator'>A more updated version can be found here</a>
                     </h1>
                 </div>
             </div>
